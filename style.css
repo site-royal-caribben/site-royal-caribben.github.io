@@ -1,0 +1,61 @@
+/* Default styles for the light theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: royalblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns nav items to the right */
+    gap: 20px;
+    padding: 0 20px; /* Adds some space to the left and right */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ddd; /* Lightens the link color on hover */
+}
+
+/* Dark theme styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Toggle button styles */
+.toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
